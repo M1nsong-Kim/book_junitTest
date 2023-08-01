@@ -8,7 +8,8 @@
 ***/
 package iloveyouboss;
 
-@FunctionalInterface
+// 함수형 인터페이스: 추상 메서드가 오직 하나만 존재하는 인터페이스
+@FunctionalInterface	// 함수형 인터페이스 조건에 부합하는지 검사	
 public interface Scoreable {
    int getScore();
 }
