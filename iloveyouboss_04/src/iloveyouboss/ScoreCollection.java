@@ -19,6 +19,6 @@ public class ScoreCollection {
    
    public int arithmeticMean() {
       int total = scores.stream().mapToInt(Scoreable::getScore).sum();
-      return total / scores.size();
+      return total / scores.size();	// 테스트 기대값: (5+7)/2
    }
 }
